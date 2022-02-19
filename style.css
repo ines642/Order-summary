@@ -23,9 +23,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
-
-    
+    overflow:hidden;   
 }
 .bg{
     position: absolute;
@@ -37,7 +35,7 @@ body{
 .con{
 height: 80vh;
 width: 23%;
-min-height:461px ;
+min-height: 460px;
 min-width: 260px;
 background: #ffffff;
 border-radius: 10%;
@@ -58,7 +56,7 @@ box-shadow: 6px 6px 5px #b4d9e4;
     position: static;
 }
 .card-content{
-  
+min-height: 350px;
   width: 80%;
    display: flex;
    justify-content: center;
